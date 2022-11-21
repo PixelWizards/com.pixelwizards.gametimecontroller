@@ -12,6 +12,9 @@ Content
 
 Open Window -> Sequencing -> Game Time Controller to open the floating editor window
 
+![Main Window](/images/gametimecontrollerwindow.png)
+
+
 Press 'play' on a timeline (or anything that might be affected by Unity's game time.
 
 Use the buttons on the editor window to affect the speed of the game time.
