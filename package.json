@@ -1,0 +1,18 @@
+{
+  "name": "com.pixelwizards.gametimecontroller",
+  "displayName": "PixelWizards - Game Time Controller",
+  "version": "0.1.0-preview.1",
+  "unity": "2022.1",
+  "description": "Simple Editor window to control game time in the editor",
+  "author": {
+    "name": "Pixel Wizards",
+    "email": "support@pixelwizards.ca",
+    "url": "https://github.com/PixelWizards"
+  },
+  "keywords": [
+    "film",
+    "Timeline",
+    "Animation"
+  ],
+  "dependencies": {  }
+}
