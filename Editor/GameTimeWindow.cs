@@ -9,7 +9,7 @@ namespace PixelWizards.GameTime
     public class GameTimeWindow : EditorWindow
     {
         // the icons
-        private static Texture quarterSpeed, halfSpeed, normalSpeed, doubleSpeed, quadSpeed, pause, reverse, stop;
+        private static Texture quarterSpeed, halfSpeed, normalSpeed, doubleSpeed, quadSpeed, pause, reverse;
 
         private float buttonWidth = 32f;
         private float buttonHeight = 32f;
@@ -26,6 +26,14 @@ namespace PixelWizards.GameTime
             LoadIcons();
         }
         
+        private void OnEnable()
+        {
+            LoadIcons();
+        }
+        
+        /// <summary>
+        /// load the icons for the window
+        /// </summary>
         private static void LoadIcons()
         {
             quarterSpeed = (Texture2D)AssetDatabase.LoadAssetAtPath("Packages/com.pixelwizards.gametimecontroller/Icons/quarterspeed.png", typeof(Texture2D));
