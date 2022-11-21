@@ -16,6 +16,9 @@ Press 'play' on a timeline (or anything that might be affected by Unity's game t
 
 Use the buttons on the editor window to affect the speed of the game time.
 
+Here's a quick walkthrough of the functionality:
+https://www.youtube.com/watch?v=3x_PcdhehpM
+
 ### Tools
 
 ### Samples
