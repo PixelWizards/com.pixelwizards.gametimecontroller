@@ -5,7 +5,7 @@ Simple Editor window to control Unity's game time.
 
 Prerequistes
 ---------------
-* This has been tested for `>= 2022.1`
+* This has been tested for `>= 2021.3` but should work on any version 
 
 Content
 ----------------
