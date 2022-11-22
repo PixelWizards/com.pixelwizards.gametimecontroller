@@ -28,7 +28,14 @@ namespace PixelWizards.GameTime
         
         private void OnEnable()
         {
+            // make sure we load our icons when the window inits
             LoadIcons();
+        }
+        
+        private void OnDisable()
+        {
+            // reset timescale when we exit just in case
+            Time.timeScale = 1.0f;
         }
         
         /// <summary>
