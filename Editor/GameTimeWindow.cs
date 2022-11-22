@@ -14,7 +14,7 @@ namespace PixelWizards.GameTime
         private float buttonWidth = 32f;
         private float buttonHeight = 32f;
         private static float windowWidth = 220;
-        private static float windowHeight = 35f;
+        private static float windowHeight = 50f;
         
         [MenuItem("Window/Sequencing/Game Time Controller")]
         public static void ShowWindow()
@@ -88,6 +88,7 @@ namespace PixelWizards.GameTime
                     }
                 }
                 GUILayout.EndHorizontal();
+                GUILayout.Label("Current Time Scale: " + Time.timeScale, EditorStyles.helpBox);
             }
             GUILayout.EndVertical();
         }
